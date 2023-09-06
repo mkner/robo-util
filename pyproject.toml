@@ -1,6 +1,6 @@
 # minimal when using setup.cfg
 
-Minimum requirements to build package in venv w/ setuptools 
+#Minimum requirements to build package in venv w/ setuptools 
 requires = [
     "setuptools",
     "wheel",]
