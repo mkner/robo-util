@@ -19,11 +19,11 @@ For example:
 
    import numpy as np
    from math import sin, cos
-   from robo_utils import rad2deg, deg2rad
+   from roboutils import rad2deg, deg2rad
 
 .. code-block:: python
 
-   def bound2PiDeg(angle): 
+   def boundTo180(angle): 
     
      # input: angle in degrees
      # output: bounded angle in (+/-) 180 degrees (pi radians)
