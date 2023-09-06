@@ -1,13 +1,15 @@
 # minimal when using setup.cfg
 
-#Minimum requirements to build package in venv w/ setuptools 
+[build-system]
 requires = [
-    "setuptools",
-    "wheel",]
-
-
-#[build-system]
+   "setuptools",
+   "wheel",
+   "numpy",
+   "math",]
+   
+#Minimum requirements to build package in venv w/ setuptools 
 #requires = [
-#   "setuptools",
-#    "wheel",
-#    "robo-base",]
+#    "setuptools",
+#    "wheel",]
+
+
