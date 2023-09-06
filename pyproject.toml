@@ -4,8 +4,9 @@
 requires = [
    "setuptools",
    "wheel",
-   "numpy",
-   "math",]
+   "numpy",]
+   
+   #"math",]
    
 #Minimum requirements to build package in venv w/ setuptools 
 #requires = [
