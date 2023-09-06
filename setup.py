@@ -8,7 +8,7 @@ DISTNAME = "robo-utils"
 #DESCRIPTION = "robo utils "
 
 #mk  works
-import robotuils
+import roboutils
 
 
 if __name__ == "__main__":
