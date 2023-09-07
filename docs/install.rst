@@ -14,7 +14,7 @@ Or a specific release or pre-release test version for example
 
 .. code-block:: console
 
-   $ pip install robo-utils==0.2.5a
+   $ pip install robo-utils==0.2.5
 
 
 Or for current test development versions
