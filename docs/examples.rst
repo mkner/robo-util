@@ -32,6 +32,29 @@ For example:
      return(rad2deg(np.arctan2( sin(deg2rad(angle)) ,cos(deg2rad(angle)))))
 
 
+.. code-block:: python
+
+   # as expected
+
+   boundTo180(179)
+   Out[7]: 179.0
+
+   boundTo180(180)
+   Out[8]: 180.0
+
+   # by keeping within 180 deg bounds (pi radians)
+   # function sees crossing the 180 deg boundary 
+   # in normal trig counter-clockwise direction for 
+   # positive angle rotations as approaching from the
+   # other direction as -179 deg (clockwise)
+
+   boundTo180(181)
+   Out[9]: -179.0
+
+   # same with 180+90 ( = 270)
+
+   boundTo180(180+90)
+   Out[10]: -90.000000000...
 
 .. code-block:: python
 
