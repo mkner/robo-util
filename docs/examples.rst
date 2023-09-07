@@ -39,7 +39,7 @@ For example:
    Out[1]: 180.0
 
    deg2rad(180)
-   Out[14]: 3.141592653589793
+   Out[2]: 3.141592653589793
 
    # test w/ inverse ops
    
