@@ -31,12 +31,24 @@ For example:
      # typical condensed python-style
      return(rad2deg(np.arctan2( sin(deg2rad(angle)) ,cos(deg2rad(angle)))))
 
-and test!
+
 
 .. code-block:: python
-
+   
    rad2deg(np.pi)
-   Out[10]: 180.0
+   Out[1]: 180.0
+
+   # test w/ inverse op
+   
+   deg2rad(rad2deg(180))
+   Out[3]: 180.0
+
+   deg2rad(rad2deg(360))
+   Out[4]: 360.0
+
+   deg2rad(rad2deg(0))
+   Out[5]: 0.0
+
 
 
 
