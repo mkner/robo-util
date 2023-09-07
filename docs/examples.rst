@@ -56,8 +56,11 @@ For example:
    boundTo180(180+90)
    Out[10]: -90.000000000...
 
+
 .. code-block:: python
 
+   # the usual
+ 
    rad2deg(np.pi)
    Out[1]: 180.0
 
