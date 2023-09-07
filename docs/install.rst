@@ -7,7 +7,7 @@ To use this project, first install it using pip:
 
 .. code-block:: console
 
-    $ pip install roboutils
+    $ pip install robo-utils
 
 
 Or a specific release or pre-release test version for example
@@ -21,6 +21,6 @@ Or for current test development versions
 
 .. code-block:: console
 
-    $ pip install -i https://test.pypi.org/simple/ roboutils
+    $ pip install -i https://test.pypi.org/simple/ robo-utils
 
 
