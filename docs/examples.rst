@@ -34,20 +34,26 @@ For example:
 
 
 .. code-block:: python
-   
+
    rad2deg(np.pi)
    Out[1]: 180.0
 
-   # test w/ inverse op
+   deg2rad(180)
+   Out[14]: 3.141592653589793
+
+   # test w/ inverse ops
    
-   deg2rad(rad2deg(180))
-   Out[3]: 180.0
+   rad2deg(deg2rad(180))
+   Out[7]: 180.0
 
-   deg2rad(rad2deg(360))
-   Out[4]: 360.0
+   rad2deg(deg2rad(360))
+   Out[8]: 360.0
 
-   deg2rad(rad2deg(0))
-   Out[5]: 0.0
+   deg2rad(rad2deg(deg2rad(0)))
+   Out[10]: 0.0
+
+
+
 
 
 
