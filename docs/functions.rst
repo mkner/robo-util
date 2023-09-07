@@ -50,6 +50,7 @@ Functions
   :param  xmax: upper bound
 
   :return: bounded value
+  :rtype: float
 
 
 .. function:: rad2deg(rad)
