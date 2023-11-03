@@ -14,7 +14,11 @@ Or a specific release or pre-release test version for example
 
 .. code-block:: console
 
-   $ pip install robo-utils==0.2.5
+   $ pip install robo-utils==0.2.7
+
+
+The main python package download site is: `here <https://pypi.org/project/robo-utils/>`_
+
 
 
 
