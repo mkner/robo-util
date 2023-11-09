@@ -133,7 +133,7 @@ Functions
    converts angular rotational rate in degrees per second
    to radians per second
 
-  :param  deg:  angular rotational rate in degrees per second 
+  :param  dps:  angular rotational rate in degrees per second 
 
   :return: angular rotational rate in radians per second
   :rtype: float
@@ -144,7 +144,7 @@ Functions
    converts angular rotational rate in radians per second
    to degrees per second
 
-  :param  rad: angular rotational rate in radians per second 
+  :param  rps: angular rotational rate in radians per second 
 
   :return: angular rotational rate in degrees per second
   :rtype: float
