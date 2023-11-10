@@ -9,7 +9,7 @@ Functions
    Maps an integer value in the range **[in_min, in_max]** to interval **[out_min, out_max]**
    Analogous to arduino map function that uses long int numeric types.  If the input parameters 
    are non-integer numerics, they will be converted to a Python **int** type at whatever resolution
-   is available by the Python implementation.
+   is available by the Python implementation being used.
 
   :param x: input numeric value to map
   :param in_min: lower bound of input range
