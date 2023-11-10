@@ -6,9 +6,10 @@ Functions
 
 .. function:: imap(x, in_min, in_max, out_min, out_max)
   
-   maps an integer value in the range **[in_min, in_max]** to interval **[out_min, out_max]**
-   analogous to arduino map function that uses long int numeric types
-   if the value x is a non-integer type it is converted to an int
+   Maps an integer value in the range **[in_min, in_max]** to interval **[out_min, out_max]**
+   Analogous to arduino map function that uses long int numeric types.  If the input parameters 
+   are non-integer numerics, they will be converted to a Python **int** type at whatever resolution
+   is available by the Python implementation.
 
   :param x: input numeric value to map
   :param in_min: lower bound of input range
