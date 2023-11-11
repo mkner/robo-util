@@ -96,8 +96,8 @@ Functions
 
 .. function::  boundTo2pi(angle)
 
-  Bounds angle into one circular rotation of 2 pi radians (360 degrees)
-  so even if input is spinning perpertually to an even greater (or lesser) 
+  Bounds angle into one circular rotation of 2 pi radians (360 degrees).
+  So even if input is spinning perpertually to an even greater (or lesser) 
   angle, the output is contained into only one equivalent full circular 
   rotation of 2 pi radians (360 degres)
 
@@ -197,7 +197,7 @@ Functions
   from **(x0,y0)** at relative angle **theta**
 
   Useful for getting the position of a remote object when using ranging sensors
-  For example, IR sensors. The ranging distance returned is from a known sensor mounted at angle
+  For example, IR sensors. The ranging distance is returned from a known sensor mounted at angle
   **theta** relative to robot's **frame forward heading** when the robot is at current position (x0,y0)
 
   :param  x0: start pos x
