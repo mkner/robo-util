@@ -20,7 +20,7 @@ Functions
   :return: bounded value
   :rtype: int
 
-  note: The input is *not* bounded.
+  Note: The input is *not* bounded.
   Use the **constrain(...)** function to bound it first if required
  
   A typical use of this function with robotic control would be to take a
@@ -30,7 +30,7 @@ Functions
 
 .. function:: fmap(x, in_min, in_max, out_min, out_max)
   
-   maps an float value in the range **[in_min, in_max]** to interval **[out_min, out_max]**
+   Maps an float value in the range **[in_min, in_max]** to interval **[out_min, out_max]**
   
   :param x: input numeric value to map
   :param in_min: lower bound of input range
@@ -44,7 +44,7 @@ Functions
 
 .. function:: constrain(x, xmin, xmax)
   
-   bounds a numeric value to range **[xmin, xmax]**
+   Bounds a numeric value to range **[xmin, xmax]**
 
   :param  x: input numeric value 
   :param  xmin: lower bound
@@ -56,7 +56,7 @@ Functions
 
 .. function:: rad2deg(rad)
 
-   converts angle in radians to degrees
+  Converts angle in radians to degrees
 
   :param  rad:  input angle in radians
 
@@ -66,7 +66,7 @@ Functions
 
 .. function:: deg2rad(deg)
 
-   converts angle in degrees to radians
+   Converts angle in degrees to radians
 
   :param  deg:  input angle in degrees
 
@@ -76,7 +76,7 @@ Functions
 
 .. function::  bound2pi(angle)
 
-  bounds angle to (+/-) pi radians
+  Bounds angle to (+/-) pi radians
 
   :param  angle: angle in radians
 
@@ -86,7 +86,7 @@ Functions
 
 .. function::  bound2piDeg(angle)
 
-  bounds angle to (+/-) 180 degrees
+  Bounds angle to (+/-) 180 degrees
 
   :param  angle: angle in degrees
 
@@ -96,7 +96,7 @@ Functions
 
 .. function::  boundTo2pi(angle)
 
-  bounds angle into one circular rotation of 2 pi radians (360 degrees)
+  Bounds angle into one circular rotation of 2 pi radians (360 degrees)
   so even if input is spinning perpertually to an even greater (or lesser) 
   angle, the output is contained into only one equivalent full circular 
   rotation of 2 pi radians (360 degres)
@@ -109,7 +109,7 @@ Functions
 
 .. function::  radPerSecToRpm(rps)
 
-   converts angular velocity in radians per second
+   Converts angular velocity in radians per second
    to RPM (revolutions per minute)
 
   :param  rps:  angular velocity in radians per second
@@ -120,7 +120,7 @@ Functions
 
 .. function::  rpmToRadPerSec(rpm)
 
-   converts angular velocity in RPM (revolutions per minute)
+   Converts angular velocity in RPM (revolutions per minute)
    to radians per second
 
   :param  rpm:  angular velocity in RPM
@@ -131,7 +131,7 @@ Functions
 
 .. function::  degPerSecToRadPerSec(dps)
 
-   converts angular rotational rate in degrees per second
+   Converts angular rotational rate in degrees per second
    to radians per second
 
   :param  dps:  angular rotational rate in degrees per second 
@@ -142,7 +142,7 @@ Functions
 
 .. function::  radPerSecToDegPerSec(rps)
 
-   converts angular rotational rate in radians per second
+   Converts angular rotational rate in radians per second
    to degrees per second
 
   :param  rps: angular rotational rate in radians per second 
@@ -153,7 +153,7 @@ Functions
 
 .. function::  mps2kmph(mps)
 
-   converts meters per second to kmph
+   Converts meters per second to kmph
 
   :param  mps: rate in meters per second
 
@@ -163,7 +163,7 @@ Functions
 
 .. function::  mps2mph(mps)
 
-   converts meters per second to mph
+   Converts meters per second to mph
 
   :param  mps: rate in meters per second
 
@@ -174,7 +174,7 @@ Functions
 
 .. function::  getDistance(x0,y0,x1,y1)
 
-   usual 2-space euclidian distance
+   Usual 2-space euclidian distance
 
   :param  x0: start pos x
   :param  y0: start pos y
@@ -188,17 +188,17 @@ Functions
 
 .. function::  getDistanceFromTo(x0,y0,x1,y1)
 
-  same as getDistance(...) 
+  Same as getDistance(...) just more verbose
 
 
 .. function::  getPositionAt(x0,y0, d, theta)
 
-  returns position **(x1,y1)** that is  **d** distance away
+  Returns position **(x1,y1)** that is  **d** distance away
   from **(x0,y0)** at relative angle **theta**
 
   Useful for getting the position of a remote object when using ranging sensors
-  For example, IR sensors, that return distance from a known sensor mounted at angle
-  theta relative to robots frame forward heading when robot is at current position (x0,y0)
+  For example, IR sensors. The ranging distance returned is from a known sensor mounted at angle
+  **theta** relative to robot's **frame forward heading** when the robot is at current position (x0,y0)
 
   :param  x0: start pos x
   :param  y0: start pos y
@@ -212,19 +212,18 @@ Functions
 
 .. function::  getPosAt(x0,y0, d, theta)
 
-  short-hand for getPositionAt(...)
+  Short-hand for getPositionAt(...)
 
  
 
 .. function::  getAngleFromTo(x0,y0,x1,y1,<deg360>)
 
-   returns angle (in degrees) of line segment from (x0,y0) to (x1,y1)  
+   Returns angle (in degrees) of line segment from (x0,y0) to (x1,y1)  
 
-   Uses usual trig conventions for signed angles of rotation:
+   Uses normal trig conventions for signed angles of rotation:
    positive angle are to left (counter-clockwise)
    negative angles are to right (clockwise)
    
-
 
   :param  x0: start pos x
   :param  y0: start pos y
