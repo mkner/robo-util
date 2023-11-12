@@ -203,7 +203,7 @@ Functions
   :param  x0: start pos x
   :param  y0: start pos y
   :param  d: distance from some current position (x0,y0) to remote point
-  :param  theta: angle (deg) relative to current heading (x0,y0) to remote point
+  :param  theta: angle (deg) relative to current heading at position (x0,y0) to remote point
  
   :return: (x1,y1): tuple of remote position coordinates 
 
