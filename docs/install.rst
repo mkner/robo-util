@@ -10,7 +10,7 @@ To use this project, first install it using pip:
     $ pip install robo-utils
 
 
-Or a specific release or pre-release test version for example
+Or a specific release version for example
 
 .. code-block:: console
 
