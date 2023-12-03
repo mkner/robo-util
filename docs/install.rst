@@ -17,7 +17,7 @@ Or a specific release version for example
    $ pip install robo-utils==0.2.7
 
 
-The main python package download site is: `here <https://pypi.org/project/robo-utils/>`_
+The main python package download site is `here <https://pypi.org/project/robo-utils/>`_
 
 
 
