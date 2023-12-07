@@ -209,8 +209,8 @@ Functions
 
   :rtype: float
 
-  Note: The robots current position (x0,y0) and the position of the remote object
-  at range returned as (x1,y1) are in the *same* coordinate frame. There are 
+  Note that the robots current position (x0,y0) and the position of the remote object
+  at range **d** returned as **(x1,y1)** are in the ***same*** coordinate frame. There are 
   no frame transforms between, for instance, the robots frame and a world frame.
   **theta**, the angle of the sensor, is in the robots frame relative to 0 degrees that is
   assumed to be the robots front, center and forward heading. **theta** is not to be confused
