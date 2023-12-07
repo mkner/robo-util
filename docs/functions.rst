@@ -222,7 +222,7 @@ Functions
 
 .. function::  getPosAt(x0,y0, d, theta)
 
-  Short-hand for getPositionAt(...)
+  Short-hand for **getPositionAt(...)**
 
  
 
