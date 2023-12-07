@@ -30,7 +30,7 @@ Functions
 
 .. function:: fmap(x, in_min, in_max, out_min, out_max)
   
-   Maps an float value in the range **[in_min, in_max]** to interval **[out_min, out_max]**
+   Maps a float value in the range **[in_min, in_max]** to interval **[out_min, out_max]**
   
   :param x: input numeric value to map
   :param in_min: lower bound of input range
@@ -56,7 +56,7 @@ Functions
 
 .. function:: rad2deg(rad)
 
-  Converts angle in radians to degrees
+  Converts an angle in radians to degrees
 
   :param  rad:  input angle in radians
 
@@ -66,7 +66,7 @@ Functions
 
 .. function:: deg2rad(deg)
 
-   Converts angle in degrees to radians
+   Converts an angle in degrees to radians
 
   :param  deg:  input angle in degrees
 
@@ -76,7 +76,7 @@ Functions
 
 .. function::  bound2pi(angle)
 
-  Bounds angle to (+/-) pi radians
+  Bounds an angle to (+/-) pi radians
 
   :param  angle: angle in radians
 
@@ -86,7 +86,7 @@ Functions
 
 .. function::  bound2piDeg(angle)
 
-  Bounds angle to (+/-) 180 degrees
+  Bounds an angle to (+/-) 180 degrees
 
   :param  angle: angle in degrees
 
@@ -96,7 +96,7 @@ Functions
 
 .. function::  boundTo2pi(angle)
 
-  Bounds angle into one circular rotation of 2 pi radians (360 degrees).
+  Bounds an angle into one circular rotation of 2 pi radians (360 degrees).
   So even if input is spinning perpertually to an even greater (or lesser) 
   angle, the output is contained into only one equivalent full circular 
   rotation of 2 pi radians (360 degres)
@@ -109,7 +109,7 @@ Functions
 
 .. function::  radPerSecToRpm(rps)
 
-   Converts angular velocity in radians per second
+   Converts **rps** angular velocity in radians per second
    to RPM (revolutions per minute)
 
   :param  rps:  angular velocity in radians per second
@@ -120,7 +120,7 @@ Functions
 
 .. function::  rpmToRadPerSec(rpm)
 
-   Converts angular velocity in RPM (revolutions per minute)
+   Converts angular velocity **rpm** in RPM (revolutions per minute)
    to radians per second
 
   :param  rpm:  angular velocity in RPM
@@ -131,7 +131,7 @@ Functions
 
 .. function::  degPerSecToRadPerSec(dps)
 
-   Converts angular rotational rate in degrees per second
+   Converts **dps** angular rotational rate in degrees per second
    to radians per second
 
   :param  dps:  angular rotational rate in degrees per second 
@@ -142,7 +142,7 @@ Functions
 
 .. function::  radPerSecToDegPerSec(rps)
 
-   Converts angular rotational rate in radians per second
+   Converts **rps** angular rotational rate in radians per second
    to degrees per second
 
   :param  rps: angular rotational rate in radians per second 
@@ -160,6 +160,7 @@ Functions
   :return: rate in kilometers per hour
 
   :rtype: float
+
 
 .. function::  mps2mph(mps)
 
@@ -188,7 +189,7 @@ Functions
 
 .. function::  getDistanceFromTo(x0,y0,x1,y1)
 
-  Same as getDistance(...) just more verbose
+  Same as **getDistance(...)** just more verbose
 
 
 .. function::  getPositionAt(x0,y0, d, theta)
@@ -228,7 +229,7 @@ Functions
 
 .. function::  getAngleFromTo(x0,y0,x1,y1,<deg360>)
 
-   Returns angle (in degrees) of line segment from (x0,y0) to (x1,y1)  
+   Returns angle (in degrees) of line segment from **(x0,y0)** to **(x1,y1)**  
 
    Uses normal trig conventions for signed angles of rotation:
    positive angle are to left (counter-clockwise)
