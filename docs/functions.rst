@@ -215,7 +215,7 @@ Functions
   But,the angle **theta**, for instance, the direction that a ranging sensor would point at,
   is in the robots frame relative to 0 degrees that is assumed to be the robots front,
   center and forward heading on the robot itself. Also, **theta** is not to be confused with a  
-  typically notated **phi** that would be the robots heading if its pose is (x0,y0,phi) in a
+  typically notated **phi** that would be the robots heading if its pose is **(x0,y0,phi**) in a
   world frame or whatever frame it is configured to operate and move in. 
 
 
