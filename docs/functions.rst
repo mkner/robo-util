@@ -120,7 +120,7 @@ Functions
 
 .. function::  rpmToRadPerSec(rpm)
 
-   Converts angular velocity **rpm** in RPM (revolutions per minute)
+   Converts **rpm** angular velocity in RPM (revolutions per minute)
    to radians per second
 
   :param  rpm:  angular velocity in RPM
