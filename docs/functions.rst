@@ -109,7 +109,7 @@ Functions
 
 .. function::  radPerSecToRpm(rps)
 
-   Converts **rps** angular velocity in radians per second
+   Converts angular velocity in radians per second
    to RPM (revolutions per minute)
 
   :param  rps:  angular velocity in radians per second
@@ -120,7 +120,7 @@ Functions
 
 .. function::  rpmToRadPerSec(rpm)
 
-   Converts **rpm** angular velocity in RPM (revolutions per minute)
+   Converts angular velocity in RPM (revolutions per minute)
    to radians per second
 
   :param  rpm:  angular velocity in RPM
@@ -131,7 +131,7 @@ Functions
 
 .. function::  degPerSecToRadPerSec(dps)
 
-   Converts **dps** angular rotational rate in degrees per second
+   Converts angular rotational rate in degrees per second
    to radians per second
 
   :param  dps:  angular rotational rate in degrees per second 
@@ -142,7 +142,7 @@ Functions
 
 .. function::  radPerSecToDegPerSec(rps)
 
-   Converts **rps** angular rotational rate in radians per second
+   Converts angular rotational rate in radians per second
    to degrees per second
 
   :param  rps: angular rotational rate in radians per second 
@@ -213,12 +213,11 @@ Functions
   Note that the robots current position **(x0,y0)** and the position of the remote object
   at range **d** returned as **(x1,y1)** are in the *same* coordinate frame. There are 
   no frame transforms between, for instance, the robots frame and a world frame.
-  But,the angle **theta**, for instance, the direction that a ranging sensor would point at,
+  But,the angle **theta**, the direction that a ranging sensor would point at,
   is in the robots frame relative to 0 degrees that is assumed to be the robots front,
-  center and forward heading on the robot itself. Also, **theta** is not to be confused with a  
-  typically notated **phi** that would be the robots heading if its pose is **(x0,y0,phi**) in a
+  center and forward heading on the robot itself. Also, **theta** is not to be confused with   
+  typically notated **phi** for robots heading if its pose is **(x0,y0,phi**) in a
   world frame or whatever frame it is configured to operate and move in. 
-
 
 
 .. function::  getPosAt(x0,y0, d, theta)
