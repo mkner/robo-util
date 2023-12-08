@@ -97,9 +97,10 @@ Functions
 .. function::  boundTo2pi(angle)
 
   Bounds an angle into one circular rotation of 2 pi radians (360 degrees).
-  So even if input is spinning perpertually to an even greater (or lesser) 
-  angle, the output is contained into only one equivalent full circular 
-  rotation of 2 pi radians (360 degres)
+  So even if the input angle is spinning perpertually either counter-clockwise
+  in the positive direction or clockwise in the negative direction
+  the output angle is contained into only one equivalent full circular 
+  rotation of 2 pi radians (360 degrees)
 
   :param  angle: angle in radians
 
