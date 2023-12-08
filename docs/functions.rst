@@ -214,7 +214,7 @@ Functions
   Note that the robots current position **(x0,y0)** and the position of the remote object
   at range **d** returned as **(x1,y1)** are in the *same* coordinate frame. There are 
   no frame transforms between, for instance, the robots frame and a world frame.
-  But,the angle **theta**, the direction that a ranging sensor would point at,
+  But, the angle **theta**, the direction that a ranging sensor would point at,
   is in the robots frame relative to 0 degrees that is assumed to be the robots front,
   center and forward heading on the robot itself. Also, **theta** is not to be confused with   
   typically notated **phi** for robots heading if its pose is **(x0,y0,phi**) in a
