@@ -1,5 +1,7 @@
 # ChangeLog
 
+2024-01-26 - 0.2.7 - update RTD function documentation, getPositionAt(...)
+                     example of use w/ different coord frames
 2023-12-07 - 0.2.7 - update RTD function documentation, better descriptions
                      improve english grammer & phrasing
 2023-12-06 - 0.2.7 - update RTD function documentation, readme
