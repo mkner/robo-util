@@ -223,15 +223,15 @@ Functions
   typically notated **phi** for robots heading if its pose is **(x0,y0,phi**) in a
   world frame or whatever frame it is configured to operate and move in. 
 
-  To have the remote position coordinates at range returned in the **robots frame** then
+  To have the remote position coordinates at range returned in the **robot frame** then
   keep (x0,y0) = (0,0). In other words, keep the robots current position, irregardless of
-  its physical position (and pose) in world coordinate space, at its physical frame center!
+  its mobile position (and heading) in world coordinate space, at its physical frame center!
 
   To get the romote position coordinates at range from the robot for a particular sensor
   returned in the **world coordinate frame** then have (x0,y0) set to the robots current 
   position in world coordinates and set theta equal to theta the sensor angle on the robot 
   frame, plus phi the robot's heading in the world frame. Eg. theta = phi + theta_sensor. 
-  Since the robots heading could be unpredictable, use the roboutils function to bound it.
+  Since the robots heading could be unpredictable, use a **roboutils** function to bound it.
   Eg. theta = bound2piDeg(phi+theta_sensor)
  
 
