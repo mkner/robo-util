@@ -211,14 +211,26 @@ Functions
 
   :rtype: float
 
+  
   Note that the robots current position **(x0,y0)** and the position of the remote object
   at range **d** returned as **(x1,y1)** are in the *same* coordinate frame. There are 
   no frame transforms between, for instance, the robots frame and a world frame.
   But, the angle **theta**, the direction that a ranging sensor would point at,
   is in the robots frame relative to 0 degrees that is assumed to be the robots front,
-  center and forward heading on the robot itself. Also, **theta** is not to be confused with   
+  center and forward heading on the robot itself in a right-handed coordinate system. 
+  So for instance,  theta = 0 degrees is easting, theta = 90 degrees is pointing north
+  and theta = -90 is due south. Also, **theta** is not to be confused with   
   typically notated **phi** for robots heading if its pose is **(x0,y0,phi**) in a
   world frame or whatever frame it is configured to operate and move in. 
+
+  To have the remote position coordinates at range returned in the **robots frame** then
+  keep (x0,y0) = (0,0). In other words, keep the robots current position, irregardless of
+  its physical position (and pose) in world coordinate space, at its physical frame center!
+
+  To get the romote position coordinates at range from the robot for a particular sensor
+  returned in the world coordinate frame then have (x0,y0) set to the robots current 
+  position in world coordinates and 
+ 
 
 
 .. function::  getPosAt(x0,y0, d, theta)
