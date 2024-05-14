@@ -1,5 +1,7 @@
 # ChangeLog
 
+2024-05-14 - 0.2.7 - update RTD (c) copyright date
+
 2024-01-26 - 0.2.7 - update RTD function documentation, getPositionAt(...)
                      example of use w/ different coord frames
 2023-12-07 - 0.2.7 - update RTD function documentation, better descriptions
