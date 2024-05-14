@@ -3,7 +3,7 @@
 # robo-utils - useful commonly used functions
 # for mobile robotics and related applications
 #
-# (c) 2022 - 2023  Mike Knerr
+# (c) 2022 - 2024  Mike Knerr
 #
 # pypi releases start from dev v0.01.05b3
 #
